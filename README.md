@@ -4,10 +4,8 @@ Sistema de controle de estoque para pequenos negócios. Cadastre produtos, regis
 
 ![React](https://img.shields.io/badge/React-18-149eca?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white)
-![Netlify](https://img.shields.io/badge/deploy-Netlify-00c7b7?logo=netlify&logoColor=white)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/IsaacMSilva/controle-estoque)
 
 ![Painel do Controle de Estoque](docs/painel.png)
 
