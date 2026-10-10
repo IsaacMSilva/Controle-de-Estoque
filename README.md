@@ -64,32 +64,6 @@ Abra o endereço que aparecer no terminal (normalmente http://localhost:5173).
 | `npm run preview` | Abre a versão de produção localmente |
 | `npm test` | Roda os testes das regras de estoque |
 
-## Publicar no Netlify
-
-O arquivo `netlify.toml` já tem tudo configurado (comando de build, pasta de publicação, versão do Node e cabeçalhos de segurança). Escolha um dos caminhos:
-
-### Opção 1: pelo GitHub (recomendada)
-
-Cada `git push` publica uma nova versão automaticamente.
-
-1. Envie o projeto para o GitHub.
-2. No Netlify, clique em **Add new site**, depois **Import an existing project** e escolha o repositório.
-3. Não mude nada nas configurações e clique em **Deploy**. Em cerca de um minuto o site estará no ar.
-
-### Opção 2: arrastando a pasta (sem GitHub)
-
-1. Rode `npm install` e `npm run build`.
-2. Abra [app.netlify.com/drop](https://app.netlify.com/drop) e arraste a pasta **`dist`** para a página.
-
-### Opção 3: pela linha de comando
-
-```bash
-npm install -g netlify-cli
-netlify login
-npm run build
-netlify deploy --prod --dir=dist
-```
-
 ## Onde ficam os dados
 
 Os dados são salvos no `localStorage` do navegador. Isso significa que:
