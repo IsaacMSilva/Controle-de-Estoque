@@ -1,0 +1,30 @@
+{
+  "name": "controle-estoque",
+  "version": "2.0.0",
+  "description": "Sistema de controle de estoque para pequenos negócios: produtos, entradas e saídas, alerta de estoque mínimo, relatório em PDF e backup. Roda 100% no navegador.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Isaac Mangelli Silva",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/estoque.test.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.2.0",
+    "@fontsource-variable/instrument-sans": "^5.2.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.3.0"
+  }
+}
